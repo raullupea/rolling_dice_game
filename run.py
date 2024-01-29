@@ -66,3 +66,10 @@ die1 = random.randint(0,5)
 die2 = random.randint(0,5)
 
 print(f"Player one: 🎲 {dices[die1]}\nVS\nPlayer two: 🎲 {dices[die2]} ")
+
+if(die1 > die2):
+     print("Player one is the winner! 🔥")
+elif(die2 > die1):
+    print("Player two is the winner! 🔥 ")
+else:
+    print("It is a draw! 🟰 ")
