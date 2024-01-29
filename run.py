@@ -64,3 +64,5 @@ input("Press ENTER to start the game!🏁 ")
 
 die1 = random.randint(0,5)
 die2 = random.randint(0,5)
+
+print(f"Player one: 🎲 {dices[die1]}\nVS\nPlayer two: 🎲 {dices[die2]} ")
