@@ -14,6 +14,11 @@ print("In order to play use the 'ENTER' key.  ")
 print("I wish you good luck!! ☘️☘️☘️ \n")
 
 
+score1 = 0
+score2 = 0
+
+
+
 dices = [ ''' 
 
     ┌─────────┐
@@ -69,10 +74,20 @@ while True:
 
     print(f"Player one: 🎲 {dices[die1]}\nVS\nPlayer two: 🎲 {dices[die2]} ")
 
+
     if(die1 > die2):
         print("Player one is the winner! 🔥")
+        score1 = score1 + 1
+        print(score1)
     elif(die2 > die1):
         print("Player two is the winner! 🔥 ")
+        score2 = score2 + 1
+        print(score2)
     else:
         print("It is a draw! 🟰 ")
     
+    if score1 + score2 in range(1,10):
+         print(f"Live score: {score1} : {score2} ")
+    else:
+        print(f" Total: {score1} wins vs {score2} wins ")
+        break
