@@ -7,11 +7,11 @@ There are 10 games ,the winner is the player who has the higher score at the end
 In order to play use the 'ENTER' key
 
 <h2 align="center">
-                <img src = "unicode,characters.png">
-                <img src=" building the dice.png">
-                <img src = "building the dices2.png">
-                <img src = "draw dice.png">
-                <img src = "winner dice.png">
+                <img src = "unicode.characters.png">
+                <img src=" buildingthedice.png">
+                <img src = "buildingthedices2.png">
+                <img src = "drawdice.png">
+                <img src = "winnerdice.png">
                     </h2>
 
 ## Above images showing proccess (images)
@@ -67,8 +67,9 @@ In order to play use the 'ENTER' key
 
 The Python Code Checker Validator Services was used to validate the page of the project to ensure there were no syntax errors in the project.
 
--   [Python Code Checker](https://snyk.io/code-checker/python/) - [Results]("<img src = "test.png">"), ("<img src = "test1.png>")
--   
+-   [Python Code Checker](https://snyk.io/code-checker/python/) - <img src = "test.png">
+                                                                  <img src = "test1.png>
+-  
 
 
 
