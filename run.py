@@ -67,7 +67,7 @@ dices = [ '''
 
 while True:
 
-    input("Press ENTER to start the game!🏁 ")
+    input("Press ENTER to start the game!🏁\n")
 
     die1 = random.randint(0,5)
     die2 = random.randint(0,5)
